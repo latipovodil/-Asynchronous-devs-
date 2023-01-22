@@ -11,6 +11,110 @@
 
   <body>
     <div class="wraber">
+      <div class="outer-bg">
+        <div class="registration">
+          <div class="registration__box">
+            <div class="registration__block">
+              <h2 class="registration__title">Registration</h2>
+              <button class="registration__cancel"></button>
+            </div>
+            <form action="https://echo.htmlacademy.ru/" class="registration__form">
+              <input required type="text" name="username" placeholder="Username" class="registration__input" autocomplete="off"
+              />
+              <input required type="password" name="password" placeholder="password" class="registration__input" autocomplete="off"
+              />
+              <button class="registration__btn" type="submit">Log In</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="tablet-header">
+          <button class="tablet-header__cancel"></button>
+          <nav class="tablet-header__nav">
+            <ul class="tablet-header__list">
+              <li class="tablet-header__item">
+                <a href="#">Home</a>
+              </li>
+              <li class="tablet-header__item">
+                <a href="#">Products</a>
+              </li>
+              <li class="tablet-header__item">
+                <a href="#">Category</a>
+              </li>
+              <li class="tablet-header__item">
+                <a href="#">About us</a>
+              </li>
+              <li class="tablet-header__item">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-hero-block">
+          <header class="site-header">
+            <div class="container site-header__container">
+              <div class="site-header__logo-block">
+                <a href="#" class="site-header__logo-ink">
+                  <img
+                    src="./img/header-logo.svg"
+                    alt="Logo of our company"
+                    class="site-header__logo"
+                  />
+                </a>
+              </div>
+              <nav class="site-header__nav">
+                <ul class="site-header__list">
+                  <li class="site-header__item site-header__active-link">
+                    <a href="#" class="site-header__link">Home</a>
+                  </li>
+                  <li class="site-header__item">
+                    <a href="#" class="site-header__link">Products</a>
+                  </li>
+                  <li class="site-header__item">
+                    <a href="#" class="site-header__link">Categories</a>
+                  </li>
+                  <li class="site-header__item">
+                    <a href="#" class="site-header__link">About</a>
+                  </li>
+                  <li class="site-header__item">
+                    <a href="#" class="site-header__link">Contact Us</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="site-header__tablet-block">
+                <button class="site-header__tablet-btn"></button>
+              </div>
+
+              <ul class="site-header__right">
+                <li class="site-header__right-item">
+                  <a href="#" class="site-header__right-link"></a>
+                </li>
+                <li class="site-header__right-item">
+                  <a href="#" class="site-header__right-link"></a>
+                </li>
+                <li class="site-header__right-item user-modal">
+                  <a href="#" class="site-header__right-link"></a>
+                </li>
+              </ul>
+            </div>
+          </header>
+
+          <section class="hero">
+            <div class="container hero__container">
+              <h1 class="hero__title">
+                Exclusive Deals of Furniture Collection
+              </h1>
+              <p title="Explore" class="hero__text">
+                Explore different categories. Find the best deals.
+              </p>
+              <button class="hero__btn">Shop Now</button>
+            </div>
+          </section>
+        </div>
+      </div>
+
       <main>
         <section class="category">
           <div class="category__container container">
@@ -18,10 +122,10 @@
               <h2 class="category__title">Explore by Category</h2>
               <input
                 class="category__search-res"
-                placeholder="Search"      
+                placeholder="Search"
                 aria-label="Search"
                 type="text"
-              />      
+              />
 
               <ul class="category__menu-res">
                 <li class="category__menu-items-res">
@@ -531,14 +635,12 @@
                 <img src="./img/our1.jpg" alt="kreslo" />
               </div>
 
-              
               <div
                 style="background-color: #e0eff6; width: 430px"
                 class="popular__slide-items"
               >
                 <img src="./img/our2.jpg" alt="kreslo" />
               </div>
-
             </div>
 
             <div class="our__slide2">
@@ -557,16 +659,14 @@
                 <img src="./img/our1.jpg" alt="kreslo" />
               </div>
 
-              
               <div
                 style="background-color: #e0eff6; width: 430px"
                 class="popular__slide-items"
               >
                 <img src="./img/our2.jpg" alt="kreslo" />
               </div>
-
             </div>
-              <div class="our__slide3">
+            <div class="our__slide3">
               <div style="width: 230px" class="our__slide-items">
                 <img src="./img/our1.jpg" alt="kreslo" />
               </div>
@@ -582,19 +682,260 @@
                 <img src="./img/our1.jpg" alt="kreslo" />
               </div>
 
-              
               <div
                 style="background-color: #e0eff6; width: 430px"
                 class="popular__slide-items"
               >
                 <img src="./img/our2.jpg" alt="kreslo" />
               </div>
-
             </div>
+          </div>
+        </section>
 
+        <section class="package">
+          <div class="container package__container">
+            <h2 class="package__title">Special Package</h2>
+            <div class="package__block">
+              <div class="package__left">
+                <div class="package__left-img-block">
+                  <img src="./img/package-main.jpg" alt="Chap tomonda kitob javoni va ko'plab kitoblar o'rtada dam olish uchun divan va devorda maxsus sertifikatlar va maqtov yorliqlari yopishtirilgan"/>
+                </div>
+
+                <div class="package__left-box">
+                  <div class="package__left-block">
+                    <h3 class="package__left-name">Larkin Wood Full Set</h3>
+                    <button class="package__left-btn">Add to cart</button>
+                  </div>
+
+                  <div class="package__left-inner-block">
+                    <h4 class="package__right-title">Description</h4>
+                    <p title="Cast Aluminum Outdoor" class="package__right-text">
+                      Cast Aluminum Outdoor Chaise Lounge As an elegant and
+                      classic touch to your outdoor space, this cast...
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="package__right">
+                <div class="package__right-block">
+                  <h4 class="package__right-title">Description</h4>
+                  <p title="Cast Aluminum Outdoor" class="package__right-text">
+                    Cast Aluminum Outdoor Chaise Lounge As an elegant and
+                    classic touch to your outdoor space, this cast Aluminum
+                    Chaise Lounge combines the appearance, function and quality
+                    all together, offering you with the best experience.
+                  </p>
+                  <button class="package__right-more">See More</button>
+                </div>
+
+                <div class="package__right-carousel">
+                  <div class="package__card">
+                    <div class="package__card-img-block">
+                      <img src="./img/package-1.jpg" alt="SHinam va yashash uchun qulay jixozlangan xona"/>
+                    </div>
+                    <div class="package__card-content">
+                      <div class="package__card-title-block">
+                        <h4 class="package__card-title">Living Room</h4>
+                        <p title="price"  class="package__card-price">$125.51</p>
+                      </div>
+                      <button class="package__right-more">See More</button>
+                    </div>
+                  </div>
+
+                  <div class="package__card">
+                    <div class="package__card-img-block">
+                      <img
+                        src="./img/package-2.jpg"
+                        alt="SHinam va yashash uchun qulay jixozlangan xona"
+                      />
+                    </div>
+                    <div class="package__card-content">
+                      <div class="package__card-title-block">
+                        <h4 class="package__card-title">Living Room</h4>
+                        <p title="price"  class="package__card-price">$125.51</p>
+                      </div>
+                      <button class="package__right-more">See More</button>
+                    </div>
+                  </div>
+
+                  <div class="package__card">
+                    <div class="package__card-img-block">
+                      <img src="./img/package-3.jpg" alt="SHinam va yashash uchun qulay jixozlangan xona"  />
+                    </div>
+                    <div class="package__card-content">
+                      <div class="package__card-title-block">
+                        <h4 class="package__card-title">Living Room</h4>
+                        <p title="price"  class="package__card-price">$125.51</p>
+                      </div>
+                      <button class="package__right-more">See More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="your">
+          <div class="container your___container">
+            <div class="your__block">
+              <h2 class="your__title">Benefits for your expediency</h2>
+              <ul class="your__list">
+                <li class="your__item1">
+                  <h3 class="your__lit-title">Payment Method</h3>
+                  <p
+                    title="We offer flexible payment options, to make easier."
+                    class="your__text"
+                  >
+                    We offer flexible payment <br />
+                    options, to make easier.
+                  </p>
+                </li>
+                <li class="your__item2">
+                  <h3 class="your__lit-title">Return policy</h3>
+                  <p
+                    title="You can return a product within 30 days."
+                    class="your__text"
+                  >
+                    You can return a product <br />
+                    within 30 days.
+                  </p>
+                </li>
+                <li class="your__item3">
+                  <h3 class="your__lit-title">Customer Support</h3>
+                  <p title="Our customer support is 24/7." class="your__text">
+                    Our customer support <br />
+                    is 24/7.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="testimon">
+          <div class="container testimon__container">
+            <div class="testimon__bottom">
+              <div class="testimon__join">
+                <h2 class="testimon__join-title">
+                  Join Our
+                  <span>Newsletter</span>
+                </h2>
+                <p
+                  title="Receive exclusive deals, discounts and many offers."
+                  class="testimon__join-text"
+                >
+                  Receive exclusive deals, discounts and many offers.
+                </p>
+                <input
+                  required
+                  aria-label="Emailingizni kiriting"
+                  class="testimon__input"
+                  placeholder="Enter your email"
+                  type="email"
+                />
+                <button class="testimon__btn" type="button">Subscribe</button>
+              </div>
+            </div>
+            <div class="testimon__bg"></div>
           </div>
         </section>
       </main>
+      <footer class="footer-cite">
+        <div class="container footer-cite__container">
+          <div class="footer-cite__BigBlock">
+            <div class="footer-cite__logobl">
+              <a href="#"><img src="./img/logotif.svg" alt="logotif" /></a>
+            </div>
+            <div class="footer-cite__tarmoq">
+              <a class="footer-cite__tar" target="_blank" href="#"
+                ><img src="./img/facebok.svg" alt="facebook ijtimoiy tarmog'i"
+              /></a>
+              <a class="footer-cite__tar" target="_blank" href="#"
+                ><img src="./img/instag.svg" alt="instagram ijtinoiy tarmog'i"
+              /></a>
+              <a class="footer-cite__tar" target="_blank" href="#"
+                ><img src="./img/inicon.svg" alt="linkiden ijtimoiy tarmog'i"
+              /></a>
+              <a class="footer-cite__tar" target="_blank" href="#"
+                ><img src="./img/dumaloqicon.svg" alt=" internet magazin"
+              /></a>
+              <a class="footer-cite__tar" target="_blank" href="#"
+                ><img src="./img/twitter.svg" alt="twitter ijtimoiy tarmog;i"
+              /></a>
+            </div>
+            <div class="footer-cite__adres">
+              <h3>Address</h3>
+              <a href="tel:+123654987">+123 654 987</a>
+              <a target="_blank" href="https://goo.gl/maps/J4pWwWeEyZ7H3TKN8"
+                >877 The Bronx, NY</a
+              >
+              <a target="_blank" href="https://goo.gl/maps/J4pWwWeEyZ7H3TKN8"
+                >14568, USA</a
+              >
+            </div>
+          </div>
+          <div class="footer-cite__BLOCK">
+            <div class="footer-cite__bigblock1">
+              <div class="footer-cite__block1">
+                <h3>My Account</h3>
+                <ul class="footer-cite__list1">
+                  <li class="footer-cite__item"><a href="#">Sign in</a></li>
+                  <li class="footer-cite__item"><a href="#">Register</a></li>
+                  <li class="footer-cite__item">
+                    <a href="#">Order status</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-cite__block2">
+                <h3>Help</h3>
+                <ul class="footer-cite__list1">
+                  <li class="footer-cite__item"><a href="#">Shipping</a></li>
+                  <li class="footer-cite__item"><a href="#">Returns</a></li>
+                  <li class="footer-cite__item"><a href="#">Sizing</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-cite__bigblock1">
+              <div class="footer-cite__block2">
+                <h3>Shop</h3>
+                <ul class="footer-cite__list1">
+                  <li class="footer-cite__item">
+                    <a href="#">All Products </a>
+                  </li>
+                  <li class="footer-cite__item"><a href="#">Bedroom</a></li>
+                  <li class="footer-cite__item">
+                    <a href="#">Dinning Room</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-cite__block2">
+                <h3>Legal Stuff</h3>
+                <ul class="footer-cite__list1">
+                  <li class="footer-cite__item">
+                    <a href="#">Shipping & Delivery </a>
+                  </li>
+                  <li class="footer-cite__item">
+                    <a href="#">Terms & Conditions</a>
+                  </li>
+                  <li class="footer-cite__item">
+                    <a href="#">Privacy & Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container footer-cite__container">
+          <p
+            title="Copyright ©2020 INWOOD. All Rights Reserved"
+            class="footer-cite__copy"
+          >
+            Copyright ©2020 INWOOD. All Rights Reserved
+          </p>
+        </div>
+      </footer>
     </div>
     <script src="./js/jquer.js"></script>
     <script src="./js/slick.min.js"></script>

@@ -1,0 +1,234 @@
+.testimon {
+  &__container {
+    padding-left: 0;
+  }
+  & {
+    background-color: #e0f6f1;
+  }
+
+  &__bottom {
+    margin-top: 100px;
+    background-image: url("../img/testimonbg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+    
+  }
+  &__join {
+    margin-left: auto;
+  }
+  &__join-title {
+    margin-top: 83px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 85px;
+    letter-spacing: 0.05em;
+    color: #07484a;
+    margin-bottom: 25px;
+  }
+  &__join-title span {
+    font-weight: 700;
+    color: #07484a;
+    display: block;
+  }
+  &__join-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #07484a;
+    margin-bottom: 57px;
+  }
+  &__input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 0px 16px 20px;
+    width: 525px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    margin-bottom: 41px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  &__input::placeholder {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #c4c4c4;
+  }
+  &__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    width: 250px;
+    height: 68px;
+    background: #70908b;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fdfbf8;
+    margin-bottom: 83px;
+    transition: all .4s linear;
+  }
+  &__btn:hover{
+    background-color: rgb(52, 37, 213);
+  }
+    &__btn:active{
+    background-color: rgb(37, 213, 154);
+  }
+}
+
+@media only screen and (max-width: 1596px) {
+  .testimon {
+    &__bottom {
+      background-size: 800px 100%;
+    }
+  }
+}
+@media only screen and (max-width: 1420px) {
+  .testimon {
+    &__bottom {
+      background-size: 700px 100%;
+    }
+    &__join-title {
+      font-size: 48px;
+      line-height: 62px;
+    }
+    &__input {
+      width: 432px;
+    }
+  }
+}
+@media only screen and (max-width: 1290px) {
+  .testimon {
+    &__bottom {
+      background-size: 600px 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .testimon__container{
+    padding-right: 20px;
+  }
+  .testimon {
+    &__bottom {
+      background-size: 550px 100%;
+    }
+    &__join-title {
+      font-size: 45px;
+      line-height: 58px;
+    }
+    &__input {
+      width: 400px;
+    }
+    &__join-text {
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .testimon {
+    &__container {
+      padding-right: 0;
+    }
+    &__bottom {
+      background-size: 100% 100%;
+      flex-direction: column;
+      height: 560px;
+      position: relative;
+    }
+    &__join {
+      position: absolute;
+      bottom: -100%;
+    }
+    &__bg {
+      width: 100%;
+      padding-bottom: 600px;
+      background-color: #e0f6f1;
+    }
+    &__join-title {
+      font-size: 48px;
+      line-height: 62px;
+    }
+    &__input {
+      width: 688px;
+    }
+ 
+  }
+}
+@media only screen and (max-width: 790px) {
+  .testimon{
+     &__input {
+      width: 500px;
+    }
+  }
+}
+@media only screen and (max-width: 580px){
+    .testimon{
+     &__input {
+      width: 400px;
+    }
+       &__join {
+      bottom: -100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    &__join-text{
+     font-weight: 400;
+font-size: 25px;
+line-height: 25px;
+    }
+  }
+}
+@media only screen and (max-width: 495px){
+.testimon{
+       &__input {
+      width: 288px;
+    }
+
+         &__bg {
+      padding-bottom: 580px;
+    }
+}
+}
+@media only screen and (max-width: 420px){
+.testimon{
+         &__bg {
+      padding-bottom: 550px;
+    }
+        &__join-text{
+     font-weight: 400;
+font-size: 22px;
+line-height: 25px;
+    }
+}
+}
