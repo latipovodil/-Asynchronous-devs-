@@ -1,0 +1,335 @@
+.our__left {
+  padding: 70px 50px 60px 50px;
+  width: 577px;
+  height: 503px;
+  background: #70908b;
+  border-radius: 0px 16px 16px 0px;
+}
+
+.our__slide3 {
+  display: none;
+}
+
+.our__container {
+  padding-left: 0;
+}
+.our__title {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120.6%;
+  color: #fdfbf8;
+}
+
+.our__text {
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 95.6%;
+  color: #fdfbf8;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.our__more {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 95.6%;
+  color: #fdfbf8;
+}
+
+.our {
+  margin-bottom: 50px;
+}
+
+.our__slide2,
+.our__slide3 {
+  display: none;
+}
+
+.our__slide,
+.our__slide2,
+.our__slide3 {
+  position: relative;
+  margin-top: -45px;
+  .slick-dots {
+    > .slick-active {
+      > button {
+        background-color: #fdfbf8;
+        height: 5px;
+      }
+    }
+    > li > button {
+      width: 44px;
+      background-color: #07484a;
+    }
+    right: auto;
+    left: -65%;
+    top: -54%;
+    z-index: 5000;
+  }
+  > .slick-list {
+    > .slick-track {
+      gap: 5px;
+      > div {
+        width: 583px !important;
+        display: inline-block;
+        background-color: transparent !important;
+        > img {
+          width: 583px !important;
+        }
+      }
+    }
+  }
+
+  > .slick-next {
+    border: none;
+    font-size: 0;
+    background: #f9d9da;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-image: url("../img/next.svg");
+    background-position: center;
+    padding: 26px;
+    position: absolute;
+    bottom: 51%;
+    right: 101%;
+  }
+  > .slick-prev {
+    border: none;
+    font-size: 0;
+    background: #e0eff6;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-image: url(../img/next.svg);
+    background-position: center;
+    padding: 26px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: absolute;
+    bottom: 51%;
+    left: -11%;
+    right: auto;
+  }
+}
+
+.our__container {
+  display: flex;
+}
+
+.our__slide2,
+.our__slide3 {
+  > .slick-list {
+    > .slick-track {
+      > div {
+        width: 383px !important;
+        > img {
+          width: 383px !important;
+        }
+      }
+    }
+  }
+}
+
+.our__slide2 {
+  > .draggable {
+    max-width: 800px;
+  }
+}
+
+.our__slide {
+  > .draggable {
+    max-width: 1200px;
+  }
+}
+
+.our__slide3 {
+  > .draggable {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1630px) {
+  .our__slide2 {
+    display: inline-block;
+  }
+  .our__slide {
+    display: none;
+  }
+
+  .our__slide2 .slick-dots {
+    right: auto;
+    left: -95%;
+    top: -54%;
+    z-index: 5000;
+  }
+
+  .our__slide2 > .slick-next {
+    border: none;
+    font-size: 0;
+    background: #f9d9da;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-image: url(../img/next.svg);
+    background-position: center;
+    padding: 26px;
+    position: absolute;
+    bottom: 53%;
+    right: 111%;
+  }
+
+  .our__slide2 {
+    > .slick-prev {
+      border: none;
+      font-size: 0;
+      background: #e0eff6;
+      border-radius: 100px;
+      background-repeat: no-repeat;
+      background-image: url(../img/next.svg);
+      background-position: center;
+      padding: 26px;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+      position: absolute;
+      bottom: 53%;
+      left: -30%;
+      right: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .our__slide3 {
+    display: inline-block;
+  }
+  .our__slide2 {
+    display: none;
+  }
+
+  .our__slide3 .slick-dots {
+    right: auto;
+    left: -95%;
+    top: -54%;
+    z-index: 5000;
+  }
+
+  .our__slide3 > .slick-next {
+    border: none;
+    font-size: 0;
+    background: #f9d9da;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-image: url(../img/next.svg);
+    background-position: center;
+    padding: 26px;
+    position: absolute;
+    bottom: 47%;
+    right: 100%;
+  }
+
+  .our__slide3 {
+    margin-top: -24px;
+  }
+
+  .our__left {
+    padding: 50px;
+  }
+
+  .our__slide3 {
+    > .slick-prev {
+      border: none;
+      font-size: 0;
+      background: #e0eff6;
+      border-radius: 100px;
+      background-repeat: no-repeat;
+      background-image: url(../img/next.svg);
+      background-position: center;
+      padding: 26px;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+      position: absolute;
+      bottom: 47%;
+      left: -30%;
+      right: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .our__slide3 .slick-dots {
+    right: auto;
+    left: -95%;
+    top: -10%;
+    z-index: 5000;
+  }
+
+  .our__slide3 > .slick-next {
+    border: none;
+    font-size: 0;
+    background: #f9d9da;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-image: url(../img/next.svg);
+    background-position: center;
+    padding: 26px;
+    position: absolute;
+    bottom:25%;
+    right: 120%;
+  }
+
+  .our__slide3 {
+    margin-top: -24px;
+  }
+
+  .our__left {
+    padding: 50px;
+  }
+
+  .our__slide3 {
+    > .slick-prev {
+      border: none;
+      font-size: 0;
+      background: #e0eff6;
+      border-radius: 100px;
+      background-repeat: no-repeat;
+      background-image: url(../img/next.svg);
+      background-position: center;
+      padding: 26px;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+      position: absolute;
+      bottom: 25%;
+      left: -50%;
+      right: auto;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 720px){
+  .our__slide3 {
+    > .slick-prev{
+      display: none;
+    }}
+    .our__slide3 {
+      > .slick-next{
+        display: none;
+      }}
+      
+      .our__title{
+        font-size: 28px;
+      }
+
+      .our__text{
+        font-size: 16px;
+      }
+      .our__more{
+        font-size: 14px;
+      }
+
+
+      .our__slide3 > .draggable {
+        max-width: 200px;
+    }
+}

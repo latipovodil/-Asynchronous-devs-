@@ -1,38 +1,603 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="icon" href="./img/logo.svg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Inwood</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>timplite</title>
-</head>
+  <body>
+    <div class="wraber">
+      <main>
+        <section class="category">
+          <div class="category__container container">
+            <div class="category__top">
+              <h2 class="category__title">Explore by Category</h2>
+              <input
+                class="category__search-res"
+                placeholder="Search"
+                aria-label="Search"
+                type="text"
+              />
 
-<body>
-  <div class="wraber">
-    <header class="header-cite">
+              <ul class="category__menu-res">
+                <li class="category__menu-items-res">
+                  <p class="category__menu-text-res">Bedroom</p>
+                </li>
+                <li class="category__menu-items-res">
+                  <p class="category__menu-text-res">Dinning Room</p>
+                </li>
+                <li class="category__menu-items-res">
+                  <p class="category__menu-text-res">Meeting Room</p>
+                </li>
+                <li class="category__menu-items-res">
+                  <p class="category__menu-text-res">Workspace</p>
+                </li>
+                <li class="category__menu-items-res">
+                  <p class="category__menu-text-res">Living Room</p>
+                </li>
+                <li class="category__menu-items-res">
+                  <p class="category__menu-text-res">Room Kitchen</p>
+                </li>
+                <li class="category__menu-items-res">
+                  <p class="category__menu-text-res">Living Space</p>
+                </li>
+              </ul>
 
-    </header>
+              <button
+                type="button"
+                class="category__left-btn category__left-btn-res"
+              >
+                All Categories
+              </button>
+            </div>
 
-    <main>
+            <div class="category__main">
+              <div class="category__left">
+                <input
+                  class="category__search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  type="text"
+                />
+                <ul class="category__left-box">
+                  <li class="category__left-items">
+                    <p class="category__left-text">Bedroom</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Dinning Room</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Meeting Room</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Workspace</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Living Room</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Kitchen</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Living Space</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Bedroom</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Dinning Room</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Meeting Room</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Workspace</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Living Room</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Kitchen</p>
+                  </li>
+                  <li class="category__left-items">
+                    <p class="category__left-text">Living Space</p>
+                  </li>
+                </ul>
+                <button type="button" class="category__left-btn">
+                  All Categories
+                </button>
+              </div>
+              <ul class="category__right">
+                <li class="category__right-card">
+                  <img src="./img/category5.jpg" alt="home" />
+                  <div class="category__right-card-hover-box">
+                    <h3 class="category__right-card-hover-title">Bedroom</h3>
+                    <button class="category__right-card-hover-btn">
+                      Explore
+                    </button>
+                  </div>
+                </li>
+                <li class="category__right-card">
+                  <img src="./img/category2.jpg" alt="home" />
+                  <div class="category__right-card-hover-box">
+                    <h3 class="category__right-card-hover-title">Bedroom</h3>
+                    <button class="category__right-card-hover-btn">
+                      Explore
+                    </button>
+                  </div>
+                </li>
+                <li class="category__right-card">
+                  <img src="./img/category3.jpg" alt="home" />
+                  <div class="category__right-card-hover-box">
+                    <h3 class="category__right-card-hover-title">Bedroom</h3>
+                    <button class="category__right-card-hover-btn">
+                      Explore
+                    </button>
+                  </div>
+                </li>
+                <li class="category__right-card">
+                  <img src="./img/category4.jpg" alt="home" />
+                  <div class="category__right-card-hover-box">
+                    <h3 class="category__right-card-hover-title">Bedroom</h3>
+                    <button class="category__right-card-hover-btn">
+                      Explore
+                    </button>
+                  </div>
+                </li>
+                <li class="category__right-card">
+                  <img src="./img/category5.jpg" alt="home" />
+                  <div class="category__right-card-hover-box">
+                    <h3 class="category__right-card-hover-title">Bedroom</h3>
+                    <button class="category__right-card-hover-btn">
+                      Explore
+                    </button>
+                  </div>
+                </li>
+                <li class="category__right-card">
+                  <img src="./img/category6.jpg" alt="home" />
+                  <div class="category__right-card-hover-box">
+                    <h3 class="category__right-card-hover-title">Bedroom</h3>
+                    <button class="category__right-card-hover-btn">
+                      Explore
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
+        <section class="popular">
+          <div class="popular__container container">
+            <h2 class="popular__title">Popular Products</h2>
 
+            <div class="popular__slide">
+              <div style="width: 230px" class="popular__slide-items">
+                <div class="popular__slide-img">
+                  <img src="./img/popular1.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Premium Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
 
-      <section class="hero">
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <div class="popular__slide-img">
+                  <img src="./img/popular2.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Armchair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
 
-      </section>
+              <div
+                style="background-color: #eeebff; width: 430px"
+                class="popular__slide-items"
+              >
+                <div style="width: 300px" class="popular__slide-img">
+                  <img src="./img/popular3.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Minimal Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
 
-    </main>
+              <div
+                style="background-color: #fff4e7; width: 430px"
+                class="popular__slide-items"
+              >
+                <div style="width: 165px" class="popular__slide-img">
+                  <img src="./img/popular4.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Dining Chair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
 
-  </div>
+              <div style="width: 230px" class="popular__slide-items">
+                <div class="popular__slide-img">
+                  <img src="./img/popular1.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Premium Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
 
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <div class="popular__slide-img">
+                  <img src="./img/popular2.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Armchair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
 
-  <footer class="footer-cite">
+              <div
+                style="background-color: #eeebff; width: 430px"
+                class="popular__slide-items"
+              >
+                <div style="width: 300px" class="popular__slide-img">
+                  <img
+                    style="width: 300px"
+                    src="./img/popular3.png"
+                    alt="kreslo"
+                  />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Minimal Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
 
+              <div
+                style="background-color: #fff4e7; width: 430px"
+                class="popular__slide-items"
+              >
+                <div style="width: 165px" class="popular__slide-img">
+                  <img src="./img/popular4.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Dining Chair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+            </div>
 
-  </footer>
-  <script src=""></script>
-</body>
+            <div class="popular__slide2">
+              <div style="width: 230px" class="popular__slide-items">
+                <div class="popular__slide-img">
+                  <img src="./img/popular1.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Premium Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
 
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <div class="popular__slide-img">
+                  <img src="./img/popular2.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Armchair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #eeebff; width: 430px"
+                class="popular__slide-items"
+              >
+                <div class="popular__slide-img">
+                  <img src="./img/popular3.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Minimal Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #fff4e7; width: 430px"
+                class="popular__slide-items"
+              >
+                <div style="width: 165px" class="popular__slide-img">
+                  <img src="./img/popular4.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Dining Chair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div style="width: 230px" class="popular__slide-items">
+                <div class="popular__slide-img">
+                  <img src="./img/popular1.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Premium Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <div class="popular__slide-img">
+                  <img src="./img/popular2.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Armchair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #eeebff; width: 430px"
+                class="popular__slide-items"
+              >
+                <div style="width: 300px" class="popular__slide-img">
+                  <img src="./img/popular3.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Minimal Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #fff4e7; width: 430px"
+                class="popular__slide-items"
+              >
+                <div style="width: 165px" class="popular__slide-img">
+                  <img src="./img/popular4.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Dining Chair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="popular__slide3">
+              <div style="width: 230px" class="popular__slide-items">
+                <div class="popular__slide-img">
+                  <img src="./img/popular1.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Premium Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <div class="popular__slide-img">
+                  <img src="./img/popular2.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Armchair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #eeebff; width: 430px"
+                class="popular__slide-items"
+              >
+                <div class="popular__slide-img">
+                  <img src="./img/popular3.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Minimal Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #fff4e7; width: 430px"
+                class="popular__slide-items"
+              >
+                <div style="width: 165px" class="popular__slide-img">
+                  <img src="./img/popular4.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Dining Chair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div style="width: 230px" class="popular__slide-items">
+                <div class="popular__slide-img">
+                  <img src="./img/popular1.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Premium Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <div class="popular__slide-img">
+                  <img src="./img/popular2.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Armchair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #eeebff; width: 430px"
+                class="popular__slide-items"
+              >
+                <div style="width: 300px" class="popular__slide-img">
+                  <img src="./img/popular3.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Minimal Sofa</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+
+              <div
+                style="background-color: #fff4e7; width: 430px"
+                class="popular__slide-items"
+              >
+                <div style="width: 165px" class="popular__slide-img">
+                  <img src="./img/popular4.png" alt="kreslo" />
+                </div>
+                <div class="popular__slide-text-box">
+                  <h3 class="popular__slide-title">Dining Chair</h3>
+                  <p class="popular__slide-text">Light single chair</p>
+                  <p class="popular__slide-text">$145</p>
+                </div>
+              </div>
+            </div>
+
+            <button class="popular__btn">Explore all items</button>
+          </div>
+        </section>
+
+        <section class="our">
+          <div class="our__container container">
+            <div class="our__left">
+              <h2 class="our__title">Our <br />Own Creation</h2>
+              <p class="our__text">Designed in our studio</p>
+              <p class="our__more">More</p>
+            </div>
+
+            <div class="our__slide">
+              <div style="width: 230px" class="our__slide-items">
+                <img src="./img/our1.jpg" alt="kreslo" />
+              </div>
+
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <img src="./img/our2.jpg" alt="kreslo" />
+              </div>
+
+              <div style="width: 230px" class="our__slide-items">
+                <img src="./img/our1.jpg" alt="kreslo" />
+              </div>
+
+              
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <img src="./img/our2.jpg" alt="kreslo" />
+              </div>
+
+            </div>
+
+            <div class="our__slide2">
+              <div style="width: 230px" class="our__slide-items">
+                <img src="./img/our1.jpg" alt="kreslo" />
+              </div>
+
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <img src="./img/our2.jpg" alt="kreslo" />
+              </div>
+
+              <div style="width: 230px" class="our__slide-items">
+                <img src="./img/our1.jpg" alt="kreslo" />
+              </div>
+
+              
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <img src="./img/our2.jpg" alt="kreslo" />
+              </div>
+
+            </div>
+              <div class="our__slide3">
+              <div style="width: 230px" class="our__slide-items">
+                <img src="./img/our1.jpg" alt="kreslo" />
+              </div>
+
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <img src="./img/our2.jpg" alt="kreslo" />
+              </div>
+
+              <div style="width: 230px" class="our__slide-items">
+                <img src="./img/our1.jpg" alt="kreslo" />
+              </div>
+
+              
+              <div
+                style="background-color: #e0eff6; width: 430px"
+                class="popular__slide-items"
+              >
+                <img src="./img/our2.jpg" alt="kreslo" />
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./js/jquer.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
